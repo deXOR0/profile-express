@@ -1,0 +1,146 @@
+@import url("../../node_modules/font-awesome/css/font-awesome.min.css");
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  padding: 0 2rem;
+}
+
+.center-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-center-items {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.wrapper {
+  height: 100%;
+  scroll-snap-align: start;
+}
+
+.wrapper-fit {
+  height: 100%;
+  scroll-snap-align: start;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper-fit {
+    overflow: hidden;
+    display: block;
+    overflow: auto;
+    scroll-snap-align: start;
+  }
+}
+
+.columnize {
+  flex-direction: column;
+}
+
+.row-items {
+  width: 100%;
+  height: 3rem;
+}
+
+.bottom-item {
+  margin: 0 1.3rem 0;
+  font-size: 1.3em;
+}
+
+.bottom-item:hover {
+  font-size: 1.8em;
+}
+
+.center-items > a {
+  color: inherit;
+}
+
+.bi-linkedin:hover {
+  color: #0072b1;
+}
+
+.bi-instagram:hover {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.text-max-width {
+  /* overflow: hidden; */
+  max-width: 80ch;
+  text-align: center;
+}
+
+.text-max-width > h2,
+h4 {
+  margin: 2rem;
+}
+
+.typing {
+  width: 11ch;
+  animation: typing 2s steps(11), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.card-wrapper {
+  margin: 1rem 0;
+}
+
+.tech-stack-tags {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.tech-stack-tags > div {
+  margin-right: 0.3rem;
+}
+
+.center-title {
+  text-align: center;
+}
+
+form > div {
+  margin: 1rem 0;
+}

@@ -6,68 +6,8 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <script defer src="js/bootstrap.bundle.min.js"></script>
-
-    <style>
-      html,
-      body {
-        height: 100%;
-      }
-
-      .center-items {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .wrapper {
-        height: calc(100% - 4rem);
-      }
-
-      .navbar {
-        position: sticky;
-        top: 0;
-      }
-
-      .bottom-item {
-        margin: 0 1.3rem 0;
-        font-size: 1.3em;
-      }
-
-      .bottom-item:hover {
-        font-size: 1.8em;
-      }
-
-      .center-items > a {
-        color: inherit;
-      }
-
-      .bi-linkedin:hover {
-        color: #0072b1;
-      }
-
-      .bi-instagram:hover {
-        color: transparent;
-        background: radial-gradient(
-          circle at 30% 107%,
-          #fdf497 0%,
-          #fdf497 5%,
-          #fd5949 45%,
-          #d6249f 60%,
-          #285aeb 90%
-        );
-        background: -webkit-radial-gradient(
-          circle at 30% 107%,
-          #fdf497 0%,
-          #fdf497 5%,
-          #fd5949 45%,
-          #d6249f 60%,
-          #285aeb 90%
-        );
-        background-clip: text;
-        -webkit-background-clip: text;
-      }
-    </style>
 
     <title>Atyanta Awesa</title>
     <link
@@ -78,33 +18,17 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img src="images/logo.png" alt="" width="204" height="36"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
-      </div>
-    </nav>
-    <div class="center-items wrapper">
+    <div class="center-items wrapper columnize">
       <div>
-        <h1>Under construction!</h1>
         <div class="center-items">
-          <h4>Created by Atyanta Awesa</h4>
+          <h1>Atyanta Awesa</h1>
+        </div>
+        <hr />
+        <div class="center-items">
+          <h4>Web Developer</h4>
         </div>
         <div class="center-items">
-          <div class="center-items" style="width: 100%; height: 3rem">
+          <div class="center-items row-items">
             <a href="https://github.com/deXOR0">
               <i class="bi bi-github bottom-item"></i>
             </a>
@@ -117,6 +41,209 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="wrapper center-items columnize">
+      <div class="text-max-width">
+        <h2>
+          Hello there!
+          <img
+            src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+            width="25px"
+          />
+        </h2>
+        <h4>
+          Looks like you've stumbled upon my website!
+          <img
+            src="https://emojis.slackmojis.com/emojis/images/1471045881/949/tumbleweed.gif?1471045881"
+            width="25px"
+          />
+        </h4>
+        <h4>Well, since you're here, here's a little something about me:</h4>
+        <h4>🚀 I'm a passionate web developer 🚀</h4>
+        <h4>
+          🎓 Currently studying Information Systems in Binus University with a
+          focus on Business Intelligence and Data Analytics 🎓
+        </h4>
+      </div>
+    </div>
+    <div class="wrapper-fit columnize">
+      <h3 class="center-title">Here are some cool things that I've built</h3>
+      <div class="row">
+        <div class="col-sm-4 card-wrapper">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">URL Shortener</h5>
+              <p class="card-text">
+                Works like bit.ly, allows user to use custom short url to wrap
+                their long and boring url, with the added benefit of password
+                protection feature.
+              </p>
+              <div class="tech-stack-tags">
+                <div class="btn btn-dark btn-sm disabled">Python</div>
+                <div class="btn btn-dark btn-sm disabled">Flask</div>
+              </div>
+              <a href="#" class="btn btn-dark"
+                ><i class="bi bi-github"></i> Github</a
+              >
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-globe2"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 card-wrapper">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sucika</h5>
+              <p class="card-text">
+                A website that allows me to write love letter (SUrat CInta
+                KAsih, hence the name) and send to someone else.
+              </p>
+              <div class="tech-stack-tags">
+                <div class="btn btn-dark btn-sm disabled">Python</div>
+                <div class="btn btn-dark btn-sm disabled">Flask</div>
+              </div>
+              <a href="#" class="btn btn-dark"
+                ><i class="bi bi-github"></i> Github</a
+              >
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-globe2"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 card-wrapper">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">BNCC Launching</h5>
+              <p class="card-text">
+                A website to let new members to register to my organization. I
+                built this with my amazing colleagues at BNCC! Primarily worked
+                on the Back-end
+              </p>
+              <div class="tech-stack-tags">
+                <div class="btn btn-dark btn-sm disabled">PHP</div>
+                <div class="btn btn-dark btn-sm disabled">Laravel</div>
+              </div>
+              <a href="#" class="btn btn-dark"
+                ><i class="bi bi-github"></i> Github</a
+              >
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-globe2"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 card-wrapper">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">AutoZoom</h5>
+              <p class="card-text">
+                A bot that allows me to automatically join zoom classes and take
+                documentations during my univerisity distance learning period.
+              </p>
+              <div class="tech-stack-tags">
+                <div class="btn btn-dark btn-sm disabled">Python</div>
+              </div>
+              <a href="#" class="btn btn-dark"
+                ><i class="bi bi-github"></i> Github</a
+              >
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-globe2"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 card-wrapper">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Nobar</h5>
+              <p class="card-text">
+                A web application that acts like a native video player for
+                desktop. I built this as a workaround to discord's no-streaming
+                policy to watch movies with friends
+              </p>
+              <div class="tech-stack-tags">
+                <div class="btn btn-dark btn-sm disabled">Python</div>
+                <div class="btn btn-dark btn-sm disabled">Flask</div>
+              </div>
+              <a href="#" class="btn btn-dark"
+                ><i class="bi bi-github"></i> Github</a
+              >
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-globe2"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 card-wrapper">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Profile</h5>
+              <p class="card-text">
+                This website! I built this as my portofolio website, but its
+                currently in early development stage, since I'm still expanding
+                my front-end knowledge.
+              </p>
+              <div class="tech-stack-tags">
+                <div class="btn btn-dark btn-sm disabled">Node JS</div>
+                <div class="btn btn-dark btn-sm disabled">Express</div>
+              </div>
+              <a href="#" class="btn btn-dark"
+                ><i class="bi bi-github"></i> Github</a
+              >
+              <a href="#" class="btn btn-primary"
+                ><i class="bi bi-globe2"></i> Live</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper center-items columnize">
+      <div class="text-max-width">
+        <h4>Why even bother using back-end in a portofolio website? 🤔</h4>
+        <p>
+          You're right! As of now, there is no justification yet to use a
+          back-end here, I can easily implement everything using react, and I am
+          planning to move this website to react in the future. But I'm thinking
+          about embedding some cool features on this website, like a cms for
+          blog maybe? Hit me up if you have any ideas, or just want to talk in
+          general!
+        </p>
+      </div>
+      <form action="mailto:contact@awesa.xyz" method="get" enctype="text/plain">
+        <h2 class="center-title">Hit me up!</h2>
+        <div class="row">
+          <div class="col">
+            <input
+              name="name"
+              id="name"
+              type="text"
+              class="form-control"
+              placeholder="Your name"
+            />
+          </div>
+          <div class="col">
+            <input
+              name="email"
+              id="email"
+              type="email"
+              class="form-control"
+              placeholder="Your email"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea
+            class="form-control"
+            id="content"
+            rows="3"
+            placeholder="Your message"
+          ></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send</button>
+      </form>
     </div>
   </body>
 </html>
